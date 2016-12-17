@@ -1,0 +1,145 @@
+body {
+    margin-left: 115px;
+    margin-right: 115px;
+    background-color: #4B7890;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #80CEFF;
+    border-style: solid;
+    border-color: #172323;
+    border-radius: 20px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 35px;
+}
+
+#name{
+    float: left;
+}
+
+a{
+    border-bottom-color: #172323;
+    border-bottom-style: hidden;
+    color: #172323;
+}
+
+li{
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #172323;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#edit, #delete{
+    margin: 15px;
+    float: right;
+    height: 50px;
+    width: 150px;
+    border-style: solid;
+    border-color: #FFB996;
+    font-family: 'Delius Unicase', cursive;
+    background-color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #9CCA68;
+}
+
+#container{
+    border-style: solid;
+    border-color: #172323;
+    border-radius: 20px;
+    background: #ffffff url("http://img03.deviantart.net/deaa/i/2011/095/e/4/stock__crumpled_paper_texture_by_soulaura777-d3dbw7p.jpg") center top;
+    margin: 80px;
+    padding: 40px;
+}
+
+#bcontainer{
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+button{
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-color: #172323;
+    border-radius: 20px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 35px;
+    background-color: #80CEFF;
+}
+
+button:hover{
+    background-color: #9CCA68;
+}
+
+#submit{
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-color: #172323;
+    border-radius: 20px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 35px;
+    background-color: #80CEFF;
+    margin-top: 50px;
+}
+
+#submit:hover{
+    background-color: #9CCA68;
+}
+
+#titlecontainer{
+    margin: 15px;
+}
+
+h1{
+    display: block;
+    color: #172323;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Rock Salt', cursive;
+}
+
+img{
+    height: 300px;
+}
+
+p{
+    font-size: 20px;
+    color: #4B7890;
+    font-family: 'Delius Unicase', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#firstanswer, #secondanswer, #thirdanswer, #fourthanwer, #fifthanswer, #n, #e{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 170px;
+}
+
+#quizcontainer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+

@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Gumball Quiz</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Rock+Salt" rel="stylesheet">
+</head>
+<body>
+<ul>
+    <li id="name">
+        <a class="active" href="/"><%= name %></a>
+    </li>
+    <li>
+        <a href="/contact"><%= nav1 %></a>
+    </li>
+    <li>
+        <a href="/game"><%= nav2 %></a>
+    </li>
+    <li>
+        <a href="/highscores"><%= nav3 %></a>
+    </li>
+</ul>
+
+<div id="container" background="http://www.wordmstemplates.com/wp-content/uploads/2015/08/lined-paper-template-6589.png">
+    <% data.forEach(function(post){ %>
+    <div id="titlecontainer">
+        <ul>
+            <li id="name"><h1><%= post.name %></h1></li>
+        </ul>
+    </div>
+    <div id="pcontainer">
+        <p>Score: <%= post.score %></p>
+    </div>
+    <div id="emailcontainer">
+        <p><%= post.email %></p>
+        <% }); %>
+    </div>
+</div>
+</body>
+</html>

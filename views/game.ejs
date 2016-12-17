@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Gumball Quiz</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Rock+Salt" rel="stylesheet">
+    <script type="javascript" src="scores.js"></script>
+</head>
+<body>
+<ul>
+    <li id="name">
+        <a class="active" href="/"><%= name %></a>
+    </li>
+    <li>
+        <a href="/contact"><%= nav1 %></a>
+    </li>
+    <li>
+        <a href="/game"><%= nav2 %></a>
+    </li>
+    <li>
+        <a href="/highscores"><%= nav3 %></a>
+    </li>
+</ul>
+
+<div id="container" background="http://www.wordmstemplates.com/wp-content/uploads/2015/08/lined-paper-template-6589.png">
+    <div id="bcontainer">
+        <h1>Let's do this!</h1>
+    </div>
+    <div id="quizcontainer">
+        <form action="/game" method="post">
+            <h1>What is the name of the fictional city where Gumball lives?</h1>
+            <input type="text" id="firstanswer">
+            <h1>What type of animal is Gumball's sister Anais?</h1>
+            <input type="text" id="secondanswer">
+            <h1>How many seaons of Gumball have aired?</h1>
+            <input type="text" id="thirdanswer">
+            <h1>What is the name of Gumball's crush?</h1>
+            <input type="text" id="fourthanwer">
+            <h1>What is Gumball's real name?</h1>
+            <input type="text" id="fifthanswer">
+            <h1>What is your name?</h1>
+            <input type="text" name="name" id="n">
+            <h1>What is your email?</h1>
+            <input type="text" name="email" id="e">
+            <br>
+            <input type="hidden" id="score" name="score">
+            <input type="submit" onclick= "submit()" value="Submit" id="submit" href="/highscores">
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

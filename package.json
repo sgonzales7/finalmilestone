@@ -1,0 +1,19 @@
+{
+  "name": "stephanie",
+  "color": "purple",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "pg-promise": "^3.9.1",
+    "psql": "0.0.1"
+  },
+  "engines": {
+    "node": "6.9.1"
+  }
+}

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Gumball Quiz</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Rock+Salt" rel="stylesheet">
+</head>
+<body>
+<ul>
+    <li id="name">
+        <a class="active" href="/"><%= name %></a>
+    </li>
+    <li>
+        <a href="/contact"><%= nav1 %></a>
+    </li>
+    <li>
+        <a href="/game"><%= nav2 %></a>
+    </li>
+    <li>
+        <a href="/highscores"><%= nav3 %></a>
+    </li>
+</ul>
+
+<div id="container" background="http://www.wordmstemplates.com/wp-content/uploads/2015/08/lined-paper-template-6589.png">
+    <h1>Congrats! Your score is <%= posts.score %></h1>
+    <form action="/new" method="post">
+        <input type="text" name="name" placeholder ="enter name">
+        <input type="text" name="email" placeholder="enter email">
+        <textarea name="content" rows="8" cols="150" placeholder="What are you thinking?"></textarea>
+        <a><input type="submit" value="Submit"></a>
+    </form>
+</div>
+</body>
+</html>
